@@ -9816,20 +9816,20 @@ header .navbar-nav a {
     margin-left: 51px;
   }
 }
-.lead-page-section {
+.lead-section {
   padding: 140px 0;
   background-position: right top;
   background-size: auto 100%;
   background-repeat: no-repeat;
 }
-.lead-page-section .lead-section-content {
+.lead-section .lead-section-content {
   background: rgba(255, 255, 255, 0.5);
 }
-.lead-page-section .lead-section-content .lead-section-title {
+.lead-section .lead-section-content .lead-section-title {
   font-size: 5.1rem;
   line-height: 6.4rem;
 }
-.lead-page-section .lead-section-content .lead-section-description {
+.lead-section .lead-section-content .lead-section-description {
   line-height: 2.5rem;
   margin-bottom: 2.7rem;
 }
@@ -9898,25 +9898,12 @@ header .navbar-nav a {
   line-height: 2.5rem;
 }
 
-footer {
-  padding: 15px 0;
+.about-section {
+  padding: 50px 0;
 }
-footer .social a {
-  color: #312e3f;
-  font-size: 2.5rem;
-  transition: 1s linear;
-  margin: 0 5px;
-}
-footer .social a:hover {
-  transform: rotate(360deg);
-  text-decoration: none;
-}
-footer .copyright {
-  color: #586c88;
-  font-size: 1.2rem;
-  font-weight: 500;
-  line-height: 4.1rem;
-}
-footer .copyright a {
-  color: #586c88;
+
+@media (min-width: 992px) {
+  .about-section {
+    padding: 104px 0;
+  }
 }/*# sourceMappingURL=theme.css.map */
