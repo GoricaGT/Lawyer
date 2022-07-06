@@ -9864,6 +9864,15 @@ header .navbar-nav a {
   overflow: hidden;
 }
 
+.service-single-section {
+  padding: 50px 0;
+}
+
+@media (min-width: 992px) {
+  .service-single-section {
+    padding: 104px 0;
+  }
+}
 .team-section {
   padding: 67px 0 61px;
 }
@@ -9944,6 +9953,6 @@ footer .copyright a {
 
 @media (min-width: 992px) {
   .about-section {
-    padding: 104px 0;
+    padding: 107px 0;
   }
 }/*# sourceMappingURL=theme.css.map */
