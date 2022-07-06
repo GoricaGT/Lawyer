@@ -9846,6 +9846,23 @@ header .navbar-nav a {
 .service-section .service-item span {
   color: #1e1e1e;
 }
+.service-section.dark-service-section {
+  background-color: #11284b;
+}
+.service-section.dark-service-section h2 {
+  color: #1a77cd;
+}
+.service-section.dark-service-section .read-more {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+.service-section.dark-service-section .service-item-description {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  height: 7.5rem;
+  overflow: hidden;
+}
 
 .team-section {
   padding: 67px 0 61px;
@@ -9896,6 +9913,29 @@ header .navbar-nav a {
   color: #586c88;
   font-weight: 400;
   line-height: 2.5rem;
+}
+
+footer {
+  padding: 15px 0;
+}
+footer .social a {
+  color: #312e3f;
+  font-size: 2.5rem;
+  transition: 1s linear;
+  margin: 0 5px;
+}
+footer .social a:hover {
+  transform: rotate(360deg);
+  text-decoration: none;
+}
+footer .copyright {
+  color: #586c88;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 4.1rem;
+}
+footer .copyright a {
+  color: #586c88;
 }
 
 .about-section {
